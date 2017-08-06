@@ -1,17 +1,13 @@
 {
   "compilerOptions": {
-    "declaration": false,
-    "emitDecoratorMetadata": false,
-    "experimentalDecorators": false,
-    "module": "es2015",
+    "target": "es5",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": false,
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "removeComments": false,
-    "sourceMap": false,
-    "strictNullChecks": false,
-    "target": "es5"
-  },
-  "compileOnSave": true
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  }
 }
